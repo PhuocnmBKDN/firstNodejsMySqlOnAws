@@ -73,6 +73,6 @@ app.post('/delete',(req, res) => {
 });
 
 //server listening
-app.listen(80, () => {
+app.listen(80, "ec2-52-39-251-8.us-west-2.compute.amazonaws.com" , () => {
   console.log('Server is running at port 80');
 });
