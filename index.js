@@ -21,7 +21,7 @@ const conn = mysql.createConnection({
 //connect to database
 conn.connect((err) =>{
   if(err) throw err;
-  console.log('Mysql Connected...Updated3');
+  console.log('Mysql Connected...Updated4');
 });
 
 //set views file
